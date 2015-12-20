@@ -6,7 +6,7 @@ variable "architecture" {
 variable "instance_type" {}
 
 module "virttype" {
-    source = "github.com/terraform-community-modules/tf_aws_virttype"
+    source = "github.com/stvp/tf_aws_virttype"
     instance_type = "${var.instance_type}"
 }
 
